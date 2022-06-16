@@ -1,0 +1,120 @@
+/*etiqueta {
+    propiedad: valor;
+}*/
+
+header {
+  width: 100%;
+  height: 70px;
+}
+body {
+  background: #000000;
+  font-family: "Raleway";
+}
+
+.iguana-img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.titulo {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.contenedor {
+  height: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-p {
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 20px;
+  width: 600px;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  margin: 30px;
+  padding-right: 40px;
+}
+
+.caracteristicas {
+  background: #1e1a13;
+
+  height: 348px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 0 50px;
+}
+i {
+  font-size: 35px;
+}
+
+.carrusel {
+  background: #000000;
+  width: 100%;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 34px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+.contenedor-caracteristicas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imgcar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 7.5px;
+}
+
+footer {
+  background: #1e1a13;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
